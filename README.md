@@ -52,12 +52,12 @@ Edit inventory.yml with your router details:
 r1 ansible_host=192.168.1.6 ansible_user=cisco ansible_password=cisco
 r2 ansible_host=10.0.12.2 ansible_user=cisco ansible_password=cisco
 ```
-###4️⃣ Run the Ansible Playbook
+### 4️⃣ Run the Ansible Playbook
 Execute the playbook to back up router configs:
 ```bash
 ansible-playbook backup.yml
 ```
-###5️⃣ Run the Python Script
+### 5️⃣ Run the Python Script
 Use Python to parse the config and extract key details:
 ```bash
 python3 parse_config.py
