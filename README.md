@@ -14,7 +14,7 @@ It automates **router backups, retrieves configurations, and parses data** to ge
 
 ---
 
-## 📸 Project Screenshots
+## 📸 Project Demonstration
 ### 🔹 **1. Cisco CML Lab Topology**
 This diagram represents the network setup used for automation.  
 ![image](https://github.com/user-attachments/assets/e01c1e09-8704-43f4-8ed6-059f8a1b4fec)
