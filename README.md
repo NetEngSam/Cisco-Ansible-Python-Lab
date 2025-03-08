@@ -36,8 +36,8 @@ A Python script extracts key details from router configs for reporting.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/NetEngSam/Cisco-Ansible-Python-Lab.git
+cd Cisco-Ansible-Python-Lab
 ```
 ### 2️⃣ Install Dependencies
 Ensure you have Ansible and Python installed:
