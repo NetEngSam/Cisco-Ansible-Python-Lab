@@ -18,7 +18,9 @@ This project demonstrates network automation and configuration management using 
 ## 📸 Project Screenshots
 
 ### 1. Cisco CML Lab Topology
-![Cisco CML Lab Topology](screenshots/topology.png)
+![image](https://github.com/user-attachments/assets/e01c1e09-8704-43f4-8ed6-059f8a1b4fec)
+
+
 
 ### 2. Ansible Playbook Output (Backup)
 ![Ansible Playbook Output](screenshots/ansible_output.png)
