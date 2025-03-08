@@ -31,14 +31,45 @@ The Ansible playbook automatically backs up router configurations.
 A Python script extracts key details from router configs for reporting. 
 ![image](https://github.com/user-attachments/assets/290ff6a2-0c4f-4b96-a859-e7218271aa34)
 
-
-
-
-
 ---
-
 ## 🔧 Setup & Execution
 
-### **1. Clone the repository**
-bash
+### 1️⃣ Clone the Repository
+```bash
 git clone <repo-url>
+cd <repo-folder>
+```
+### 2️⃣ Install Dependencies
+Ensure you have Ansible and Python installed:
+```bash
+sudo apt update && sudo apt install -y ansible python3 python3-pip
+pip install paramiko netmik
+```
+### 3️⃣ Configure Ansible Inventory
+Edit inventory.yml with your router details:
+```yml
+[routers]
+r1 ansible_host=192.168.1.6 ansible_user=cisco ansible_password=cisco
+r2 ansible_host=10.0.12.2 ansible_user=cisco ansible_password=cisco
+```
+###4️⃣ Run the Ansible Playbook
+Execute the playbook to back up router configs:
+```bash
+ansible-playbook backup.yml
+```
+###5️⃣ Run the Python Script
+Use Python to parse the config and extract key details:
+```bash
+python3 parse_config.py
+```
+
+
+
+
+
+
+
+
+
+
+
