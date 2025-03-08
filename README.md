@@ -43,7 +43,7 @@ cd <repo-folder>
 Ensure you have Ansible and Python installed:
 ```bash
 sudo apt update && sudo apt install -y ansible python3 python3-pip
-pip install paramiko netmik
+pip install paramiko netmiko
 ```
 ### 3️⃣ Configure Ansible Inventory
 Edit inventory.yml with your router details:
@@ -60,7 +60,7 @@ ansible-playbook backup.yml
 ### 5️⃣ Run the Python Script
 Use Python to parse the config and extract key details:
 ```bash
-python3 parse_config.py
+python3 parse_backups.py
 ```
 
 
